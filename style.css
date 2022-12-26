@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: rgb(171, 236, 215);
+}
+
+.container{
+width: 50%;
+margin: auto;
+padding: 3vh;
+display: flex;
+justify-content: space-between;
+background-color: aliceblue;
+margin-top: 10vh;
+border-radius: 10px;
+}
+.left-container{
+    width: 45%;
+    padding: 2vh;
+    border-radius: 6px;
+    font-size: 3vh;
+
+}
+.left-container input{
+    font-size: 4vh;
+    background-color: rgb(212, 230, 247);
+    border: none;
+    padding: 0.5vh;
+    border-radius: 6px;
+}
+.left-container button{
+    width: 15vh;
+    font-size: 3vh;
+    margin-top: 1.5vh;
+    border-radius: 6px;
+    margin-bottom: 1.5vh;
+    padding: 0.5vh;
+    background-color:rgb(9, 54, 54) ;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.left-container button:hover{
+    background-color:rgb(44, 156, 156) ;
+    color: rgb(9, 11, 14);
+}
+
+.right-container{
+    width: 45%;
+    background-color: rgb(9, 54, 54);
+    padding: 2vh;
+    border-radius: 6px;
+    font-size: 4vh;
+    color: aliceblue;
+}
+.tip-amount{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 3vh;
+}
+.total-amount{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 3vh;
+}
+
+.right-container button{
+    width: 100%;
+    font-size: 3vh;
+    border-radius: 6px;
+    background-color:  rgb(9, 70, 70);
+    color: aliceblue;
+    padding: 1vh;
+    margin-top: 10vh;
+    border: none;
+}
+.tip-amount div{
+    font-size: 5vh;
+    font-weight: bold;
+}
+.total-amount div{
+    font-size: 5vh;
+    font-weight: bold;
+}
+.right-container button:hover{
+background-color: rgb(12, 92, 92);
+}
